@@ -13,7 +13,7 @@ on:
       - '!lib/v2/test/**'
       - '!test/**'
       - 'Dockerfile'
-  workflow_dispatch: 
+  workflow_dispatch: {} 
 
 jobs:
   check-env:
